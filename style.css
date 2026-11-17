@@ -29,7 +29,7 @@ thead{background:#252e4e}tbody{background:#191e34}tbody td{color:var(--muted)}tb
 .pagination{display:flex;justify-content:space-between;gap:1rem;padding:1rem 0 0;margin-top:2rem;border-top:1px solid var(--line);font-size:.91rem}
 @media(max-width:580px){.cards,.cards.two,.ports{grid-template-columns:1fr}.mark{width:1.65rem;height:1.15rem}.pagination{flex-wrap:wrap}}
 
-.languages{display:flex;gap:.28rem;margin-left:auto;white-space:nowrap}
+.languages{display:flex;gap:.28rem;margin-left:clamp(.3rem,2vw,1.25rem);white-space:nowrap}
 .languages a{border:1px solid transparent;border-radius:.4rem;color:#c6c9e1;padding:.32rem .55rem;font-size:.82rem;text-decoration:none}
 .languages a:hover,.languages a:focus-visible{background:#2c3253;color:#fff}
 .languages a[aria-current]{border-color:#7d8cd1;color:#fff;background:#2c3253}
